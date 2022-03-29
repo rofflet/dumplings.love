@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.main {
+    background: linear-gradient(180deg, #a10c68 -100%, #f32b46 100%);
+}
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    color: #c0b5b8;
+    flex: 0 0 400px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+h1 span {
+    color: #080808;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    display: block;
+    margin-bottom: 20px;
+    top: 100px;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+a {
+    color: #8f0a11;
+    background-color: #dddae7;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+}
+.visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.bg {
+    width: 432px;
+    height: 100%;
+    background: linear-gradient(2.42deg, #f3355e -19.6%, #fb3174 100.79%, #fd30ae 100.79%);
+}
+img {
+    width: 700px;
+    position: absolute;
+    right: 120px;
+    top: 220px;
+}
